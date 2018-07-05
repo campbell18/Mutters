@@ -16,6 +16,7 @@ repositories {
 dependencies {
     compile project(':mutters-core')
     compile project(':mutters-slots')
+    compile project(':mutters-opennlp-intent')
 
     compile 'org.apache.opennlp:opennlp-tools:1.8.0'
     compile 'org.slf4j:slf4j-api:1.7.21'
